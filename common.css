@@ -1,0 +1,1540 @@
+        html
+        {
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        body
+        {
+            overflow-x: hidden;
+            background: whitesmoke;
+
+        }
+        div.example input[type=text] {
+            margin-left: 15%;
+            margin-top: 15px;
+            padding: 10px;
+            font-size: 17px;
+            border: 1px solid grey;
+            float: left;
+            width: 60%;
+            background: #f1f1f1;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            outline:none;
+          }
+          
+          div.example button {
+            margin-top: 15px;  
+            float: left;
+            width: 10%;
+            padding: 10px;
+            background: #2196F3;
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-left: none;
+            cursor: pointer;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            outline: none;
+          }
+          
+          div.example button:hover {
+            background: #0b7dda;
+          }
+          
+          div.example::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+        #div0
+        {
+            height:87px;
+            width: 100%;
+            background: whitesmoke;
+        }
+        #div1
+        {
+            height:50px;
+            width: 40%;
+            float: left;
+            font-size: 20px;
+            font-family: Helvetica;
+            text-align: center;
+            background: inherit;
+            padding-top: 5px;
+            outline: none;
+            border: 0;
+        }
+        #div2
+        {
+            height:50px;
+            width: 40%;
+            float: left;
+            font-size: 20px;
+            font-family: Helvetica;
+            text-align: center;
+            background: inherit;
+            padding-top: 5px;
+            outline: none;
+            border: 0;
+        }
+        #div3
+        {
+            height:50px; 
+            width: 20%;
+            float: left;
+            background: inherit;
+            text-align: center;
+            padding-top: auto 5px auto auto;
+            outline: none;
+            border: 0;
+        }
+        .btn
+        {
+            background: black;
+            color: white;
+            margin-top: 5px;
+            outline: none;
+            border: none;
+        }
+        .btn:hover
+        {
+            color:white;
+        }
+        .divul
+        {
+            height: 100px;
+            width: 30%;
+            padding-top: 37.5px;
+            padding-bottom: 37.5px;
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            float: left;
+            text-align: center;
+            background: inherit;
+        }
+        .win-out
+        {
+                height: 100px;
+                width: 20%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+        }   
+        .divum
+        {
+            height: 50px;
+            width: 100%;
+            /*padding-top: 37.5px;
+            padding-bottom: 37.5px;*/
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            /*float: left;*/
+            text-align: center;
+            background: inherit;
+            
+        }
+        .divur
+        {
+            height: 100px;
+            width: 30%;
+            padding-top: 37.5px;
+            padding-bottom: 37.5px;
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            float: left;
+            text-align: center;
+            background: inherit;
+            
+        }
+        .divudl
+        {
+            height: 30px;
+            width: 30%;
+            padding: 20px auto auto auto;
+            font-size: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            float: left;
+            text-align: center;
+            background: inherit;
+        }
+        .divudm
+        {
+            height: 30px;
+            width: 20%;
+            padding: 20px auto auto auto;
+            font-size: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            float: left;
+            text-align: center;
+            background: inherit;
+        }
+        .divudr
+        {
+            height: 30px;
+            width: 30%;
+            padding: 20px auto auto auto;
+            font-size: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            float: left;
+            text-align: center;
+            background: inherit;
+        }
+        .divudrhead
+        {
+            height: 120px;
+            width: 20%;
+            float: right;
+            background: inherit;
+
+        }
+        .divudrr
+        {
+            height: 25px;
+            width: 100%;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background: inherit;
+        }
+        .divmr
+        {
+            height: 100px;
+            width: 20%;
+            font-size: 20px;
+            padding: 40px 0px 40px 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            float: left;
+            background: inherit;
+
+        }
+        .divhl
+        {
+            height:50px;
+            width: 80%;
+            font-size: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-family:Georgia, 'Times New Roman', Times, serif ;
+            float: left;
+            text-align: center;
+            background: inherit;
+            
+        }
+        .divhr
+        {
+            height:50px;
+            width: 20%;
+            font-size: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-family:Georgia, 'Times New Roman', Times, serif ;
+            float: left;
+            text-align: center;
+            background: inherit;
+           
+        }
+        .divfl
+        {
+            height: 50px;
+            width: 30%;
+            font-size: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            float:left;
+            background: inherit;
+            margin-bottom: 1px;
+        }
+        .divfm
+        {
+            height: 50px;
+            width: 45%;
+            font-size: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            float:left;
+            background: inherit;
+            margin-bottom: 1px;
+        }
+        .divfr
+        {
+            height:50px;
+            width: 25%;
+            font-size: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            float:right;
+            background: inherit;
+            margin-bottom: 1px;
+            
+        }
+        
+        
+        .divudrm
+        {
+            height: 100px;
+            width: 100%;
+            padding-top: 30px;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background: inherit;
+        }
+        .hr
+        {
+            height: 7px;
+            width: 100%;
+            background: black;
+            float: left;
+            margin-bottom: 1px;
+        }
+        @media screen and (max-width: 1025px)
+        {
+            body
+            {
+                background: whitesmoke;
+            }
+            #div0
+            {
+                height: 90px;
+                width: 100%;
+                background: inherit;
+            }
+            #div1
+            {
+                height: 50px;
+                width: 40%;
+                font-size: large;
+                font-family: Helvetica;
+                text-align: center;
+                padding-top: 15px;
+
+            }
+            #div2
+            {
+                height: 50px;
+                width: 40%;
+                font-size: large;
+                font-family: Helvetica;
+                text-align: center;
+                padding-top: 15px;
+            }
+            #div3
+            {
+                height: 50px; 
+                width: 20%;
+            }
+            .divhl
+            {
+                height: 50px;
+                width: 70%;
+                font-size: 30px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divhr
+            {
+                height: 50px;
+                width: 30%;
+                font-size: 25px;
+                padding-top: 15px;
+                padding-left: 10px;
+                padding-right: 15px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                float: left;
+                text-align: center;
+                background: inherit;
+            
+            }
+            .divul
+            {
+                height: 70px;
+                width: 30%;
+                padding-top: 25px;
+                padding-bottom: 37.5px;
+                font-size: 25px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .win-out
+            {
+                height: 70px;
+                width: 20%;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }   
+            .divum
+            {
+                height: 35px;
+                width: 100%;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divur
+            {
+                height: 70px;
+                width: 30%;
+                padding-top: 25px;
+                padding-bottom: 37.5px;
+                font-size: 25px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divmr
+            {
+                height: 65px;
+                width: 20%;
+                font-size: 22px;
+                padding: 30px 0px 40px 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float: left;
+                background: inherit;
+
+            }
+            .divudl
+            {
+                height: 30px;
+                width: 30%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudm
+            {
+                height: 30px;
+                width: 20%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudr
+            {
+                height: 30px;
+                width: 30%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            
+            .divfl
+            {
+                height: 70px;
+                width: 30%;
+                font-size: 20px;
+                padding-top: 20px;
+                padding-bottom: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:left;
+                background: inherit;
+                margin-bottom: 1px;
+            }
+            .divfm
+            {
+                height: 70px;
+                width: 45%;
+                font-size: 20px;
+                padding-top: 20px;
+                padding-bottom: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:left;
+                background: inherit;
+                margin-bottom: 1px;
+            }
+            .divfr
+            {
+                height: 70px;
+                width: 25%;
+                font-size: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:right;
+                background: inherit;
+                margin-bottom: 1px;
+                
+            }
+            
+        }
+
+        @media screen and (max-width: 800px)
+        {
+            body,html
+            {
+                background: whitesmoke;
+                overflow-x: scroll;
+            }
+            #div0
+            {
+                height: 90px;
+                width: 100%;
+                background: inherit;
+            }
+            #div1
+            {
+                height: 50px;
+                width: 40%;
+                font-size: large;
+                font-family: Helvetica;
+                text-align: center;
+                padding-top: 15px;
+
+            }
+            #div2
+            {
+                height: 50px;
+                width: 40%;
+                font-size: large;
+                font-family: Helvetica;
+                text-align: center;
+                padding-top: 15px;
+            }
+            #div3
+            {
+                height: 50px; 
+                width: 20%;
+                padding-top: 5px;
+            }
+            .btn
+            {
+                margin-top: 5px;
+            }
+            .divhl
+            {
+                height: 50px;
+                width: 70%;
+                font-size: 25px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divhr
+            {
+                height: 50px;
+                width: 30%;
+                font-size: 20px;
+                padding-top: 15px;
+                padding-left: 10px;
+                padding-right: 15px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                float: left;
+                text-align: center;
+                background: inherit;
+            
+            }
+            .divul
+            {
+                height: 70px;
+                width: 30%;
+                padding-top: 25px;
+                padding-bottom: 37.5px;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .win-out
+            {
+                height: 70px;
+                width: 20%;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }   
+            .divum
+            {
+                height: 35px;
+                width: 100%;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divur
+            {
+                height: 70px;
+                width: 30%;
+                padding-top: 25px;
+                padding-bottom: 37.5px;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divmr
+            {
+                height: 65px;
+                width: 20%;
+                font-size: 15px;
+                padding: 30px 0px 40px 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float: left;
+                background: inherit;
+
+            }
+            .divudl
+            {
+                height: 30px;
+                width: 30%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudm
+            {
+                height: 30px;
+                width: 20%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudr
+            {
+                height: 30px;
+                width: 30%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            
+            .divfl
+            {
+                height: 70px;
+                width: 30%;
+                font-size: 18px;
+                padding-top: 20px;
+                padding-bottom: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:left;
+                background: inherit;
+                margin-bottom: 1px;
+            }
+            .divfm
+            {
+                height: 70px;
+                width: 45%;
+                font-size: 18px;
+                padding-top: 20px;
+                padding-bottom: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:left;
+                background: inherit;
+                margin-bottom: 1px;
+            }
+            .divfr
+            {
+                height: 70px;
+                width: 25%;
+                font-size: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:right;
+                background: inherit;
+                margin-bottom: 1px;
+                
+            }
+            
+        }
+        @media screen and (max-width: 730px)
+        {
+            body,html
+            {
+                background: whitesmoke;
+            }
+            #div0
+            {
+                height: 90px;
+                width: 100%;
+                background: inherit;
+            }
+            #div1
+            {
+                height: 50px;
+                width: 40%;
+                font-size: large;
+                font-family: Helvetica;
+                text-align: center;
+                padding-top: 15px;
+
+            }
+            #div2
+            {
+                height: 50px;
+                width: 40%;
+                font-size: large;
+                font-family: Helvetica;
+                text-align: center;
+                padding-top: 15px;
+            }
+            #div3
+            {
+                height: 50px; 
+                width: 20%;
+                padding-top: 5px;
+            }
+            .btn
+            {
+                height: auto;
+                font-size: 13px;
+                margin-top: 7px;
+            }
+            .divhl
+            {
+                height: 50px;
+                width: 70%;
+                font-size: 25px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divhr
+            {
+                height: 50px;
+                width: 30%;
+                font-size: 20px;
+                padding-top: 15px;
+                padding-left: 10px;
+                padding-right: 15px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                float: left;
+                text-align: center;
+                background: inherit;
+            
+            }
+            .divul
+            {
+                height: 70px;
+                width: 30%;
+                padding-top: 25px;
+                padding-bottom: 37.5px;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .win-out
+            {
+                height: 70px;
+                width: 20%;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }   
+            .divum
+            {
+                height: 35px;
+                width: 100%;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divur
+            {
+                height: 70px;
+                width: 30%;
+                padding-top: 25px;
+                padding-bottom: 37.5px;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divmr
+            {
+                height: 65px;
+                width: 20%;
+                font-size: 15px;
+                padding: 30px 0px 40px 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float: left;
+                background: inherit;
+
+            }
+            .divudl
+            {
+                height: 30px;
+                width: 30%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudm
+            {
+                height: 30px;
+                width: 20%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudr
+            {
+                height: 30px;
+                width: 30%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            
+            .divfl
+            {
+                height: 70px;
+                width: 30%;
+                font-size: 18px;
+                padding-top: 20px;
+                padding-bottom: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:left;
+                background: inherit;
+                margin-bottom: 1px;
+            }
+            .divfm
+            {
+                height: 70px;
+                width: 45%;
+                font-size: 18px;
+                padding-top: 20px;
+                padding-bottom: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:left;
+                background: inherit;
+                margin-bottom: 1px;
+            }
+            .divfr
+            {
+                height: 70px;
+                width: 25%;
+                font-size: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:right;
+                background: inherit;
+                margin-bottom: 1px;
+                
+            }
+            
+        }
+        @media screen and (max-width: 625px)
+        {
+            body
+            {
+                background: whitesmoke;
+            }
+            #div0
+            {
+                display: block;
+                height: 90px;
+                width: 100%;
+                background: inherit;
+            }
+            #div1
+            {
+                display: block;
+                height: 50px;
+                width: 100%;
+                font-size: large;
+                font-family: Helvetica;
+                text-align: center;
+                padding-top: 15px;
+
+            }
+            #div2
+            {
+                display: block;
+                height: 50px;
+                width: 100%;
+                font-size: large;
+                font-family: Helvetica;
+                text-align: center;
+                padding-top: 15px;
+            }
+            #div3
+            {
+                display: block;
+                height: 50px; 
+                width: 100%;
+            }
+            .btn
+            {
+                height: auto;
+                font-size: 13px;
+            }
+            .divhl
+            {
+                height: 50px;
+                width: 70%;
+                font-size: 25px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divhr
+            {
+                height: 50px;
+                width: 30%;
+                font-size: 20px;
+                padding-top: 15px;
+                padding-left: 10px;
+                padding-right: 15px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                float: left;
+                text-align: center;
+                background: inherit;
+            
+            }
+            .divul
+            {
+                height: 70px;
+                width: 30%;
+                padding-top: 25px;
+                padding-bottom: 37.5px;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .win-out
+            {
+                height: 70px;
+                width: 20%;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }   
+            .divum
+            {
+                height: 35px;
+                width: 100%;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divur
+            {
+                height: 70px;
+                width: 30%;
+                padding-top: 25px;
+                padding-bottom: 37.5px;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divmr
+            {
+                height: 65px;
+                width: 20%;
+                font-size: 15px;
+                padding: 30px 0px 40px 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float: left;
+                background: inherit;
+
+            }
+            .divudl
+            {
+                height: 30px;
+                width: 30%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudm
+            {
+                height: 30px;
+                width: 20%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudr
+            {
+                height: 30px;
+                width: 30%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudrr
+            {
+                font-size: 10px;
+            }
+            
+            .divfl
+            {
+                height: 70px;
+                width: 30%;
+                font-size: 15px;
+                padding-top: 20px;
+                padding-bottom: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:left;
+                background: inherit;
+                margin-bottom: 1px;
+            }
+            .divfm
+            {
+                height: 70px;
+                width: 45%;
+                font-size: 15px;
+                padding-top: 20px;
+                padding-bottom: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:left;
+                background: inherit;
+                margin-bottom: 1px;
+            }
+            .divfr
+            {
+                height: 70px;
+                width: 25%;
+                font-size: 12px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:right;
+                background: inherit;
+                margin-bottom: 1px;
+                
+            }
+            
+        }
+        @media screen and (max-width: 500px)
+        {
+            body
+            {
+                background: whitesmoke;
+            }
+            #div0
+            {
+                display: block;
+                height: 90px;
+                width: 100%;
+                background: inherit;
+            }
+            #div1
+            {
+                display: block;
+                height: 50px;
+                width: 100%;
+                font-size: large;
+                font-family: Helvetica;
+                text-align: center;
+                padding-top: 15px;
+
+            }
+            #div2
+            {
+                display: block;
+                height: 50px;
+                width: 100%;
+                font-size: large;
+                font-family: Helvetica;
+                text-align: center;
+                padding-top: 15px;
+            }
+            #div3
+            {
+                display: block;
+                height: 50px; 
+                width: 100%;
+            }
+            .btn
+            {
+                height: auto;
+                font-size: 13px;
+            }
+            .divhl
+            {
+                height: 50px;
+                width: 70%;
+                font-size: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divhr
+            {
+                height: 50px;
+                width: 30%;
+                font-size: 15px;
+                padding-top: 15px;
+                padding-left: 10px;
+                padding-right: 15px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                float: left;
+                text-align: center;
+                background: inherit;
+            
+            }
+            .divul
+            {
+                height: 70px;
+                width: 30%;
+                padding-top: 25px;
+                padding-bottom: 37.5px;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .win-out
+            {
+                height: 70px;
+                width: 20%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }   
+            .divum
+            {
+                height: 25px;
+                width: 100%;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divur
+            {
+                height: 70px;
+                width: 30%;
+                padding-top: 25px;
+                padding-bottom: 37.5px;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divmr
+            {
+                height: 70px;
+                width: 20%;
+                font-size: 11px;
+                padding: 30px 0px 40px 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float: left;
+                background: inherit;
+
+            }
+            .divudl
+            {
+                height: 30px;
+                width: 30%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudm
+            {
+                height: 30px;
+                width: 20%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudr
+            {
+                height: 30px;
+                width: 30%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudrr
+            {
+                font-size: 8px;
+                height: 23.5px;
+            }
+            
+            .divfl
+            {
+                height: 70px;
+                width: 30%;
+                font-size: 13px;
+                padding-top: 20px;
+                padding-bottom: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:left;
+                background: inherit;
+                margin-bottom: 1px;
+            }
+            .divfm
+            {
+                height: 70px;
+                width: 45%;
+                font-size: 13px;
+                padding-top: 20px;
+                padding-bottom: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:left;
+                background: inherit;
+                margin-bottom: 1px;
+            }
+            .divfr
+            {
+                height: 70px;
+                width: 25%;
+                font-size: 10px;
+                padding-top: 15px;
+                padding-bottom: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:right;
+                background: inherit;
+                margin-bottom: 1px;
+                
+            }
+            
+        }
+        @media screen and (max-width: 400px)
+        {
+            body
+            {
+                background: whitesmoke;
+            }
+            #div0
+            {
+                display: block;
+                height: 90px;
+                width: 100%;
+                background: inherit;
+            }
+            #div1
+            {
+                display: block;
+                height: 50px;
+                width: 100%;
+                font-size: large;
+                font-family: Helvetica;
+                text-align: center;
+                padding-top: 15px;
+
+            }
+            #div2
+            {
+                display: block;
+                height: 50px;
+                width: 100%;
+                font-size: large;
+                font-family: Helvetica;
+                text-align: center;
+                padding-top: 15px;
+            }
+            #div3
+            {
+                display: block;
+                height: 50px; 
+                width: 100%;
+            }
+            .btn
+            {
+                height: auto;
+                font-size: 13px;
+            }
+            .divhl
+            {
+                height: 50px;
+                width: 70%;
+                font-size: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divhr
+            {
+                height: 50px;
+                width: 30%;
+                font-size: 12px;
+                padding-top: 15px;
+                padding-left: 10px;
+                padding-right: 15px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                float: left;
+                text-align: center;
+                background: inherit;
+            
+            }
+            .divul
+            {
+                height: 70px;
+                width: 30%;
+                padding-top: 25px;
+                padding-bottom: 37.5px;
+                font-size: 12px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .win-out
+            {
+                height: 70px;
+                width: 20%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }   
+            .divum
+            {
+                height: 25px;
+                width: 100%;
+                font-size: 12px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divur
+            {
+                height: 70px;
+                width: 30%;
+                padding-top: 25px;
+                padding-bottom: 37.5px;
+                font-size: 12px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+                
+            }
+            .divmr
+            {
+                height: 70px;
+                width: 20%;
+                font-size: 8px;
+                padding: 30px 0px 40px 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float: left;
+                background: inherit;
+
+            }
+            .divudl
+            {
+                height: 30px;
+                width: 30%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudm
+            {
+                height: 30px;
+                width: 20%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudr
+            {
+                height: 30px;
+                width: 30%;
+                padding: 20px auto auto auto;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                text-align: center;
+                background: inherit;
+            }
+            .divudrm
+            {
+                font-size: 10px;
+            }
+            .divudrr
+            {
+                font-size: 8px;
+                height: 23.5px;
+            }
+            
+            .divfl
+            {
+                height: 70px;
+                width: 30%;
+                font-size: 11px;
+                padding-top: 20px;
+                padding-bottom: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:left;
+                background: inherit;
+                margin-bottom: 1px;
+            }
+            .divfm
+            {
+                height: 70px;
+                width: 45%;
+                font-size: 11px;
+                padding-top: 20px;
+                padding-bottom: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:left;
+                background: inherit;
+                margin-bottom: 1px;
+            }
+            .divfr
+            {
+                height: 70px;
+                width: 25%;
+                font-size: 8px;
+                padding-top: 15px;
+                padding-bottom: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                float:right;
+                background: inherit;
+                margin-bottom: 1px;
+                
+            }
+            
+        }

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="resumecss.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" href="logo.jpg" type="image/logo">
+    <title>Resume</title>
+</head>
+<body>
+    <nav>
+        <div class="toggle">
+                <div class="logo"><a href="resumecp.html"><img src="logo.jpg" alt="logo"></a></div>
+                <i class="fa fa-bars menu" aria-hidden="true"></i>
+        </div>
+        <ul class="ul2">
+            
+            <li><a href="resumecp.html">Home</a></li>
+            <li><a href="#aboutme">About me</a></li>
+            <li><a href="#exp">Expertise</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#pro">Projects</a></li>
+            <li><a href="#con">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="profile-img">
+        <img src="profile1.jpg">
+    </div>
+    <div class="profile-info" id="aboutme">
+        <h1> Vinay Bharti</h1>
+        <p class="about">My name is Vinay Bharti.I am ambitious and driven.I thrive on challenge and constantly set goals for myself,
+             so I have something to strive towards. I’m not comfortable with settling, and I’m always looking for an opportunity to do 
+             better and achieve greatness.I’m a people person. I love meeting new people and learning about their lives and their backgrounds. 
+            I can almost always find common ground with strangers, and I like making people feel comfortable in my presence.
+        </p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/"><img src="facebook.png" alt="facebook"></a>
+            <img src="instagram.png" alt="instagram">
+            <img src="gmail.png" alt="gmail">
+        </div>
+        <h2 id="edu">Education</h2>
+        <ul>
+            <li>Currently I am persuing Bachelor of Engineering(B.E) in Computer Science, 5th semester from Chitkara University, Punjab, India.</li>
+            <li>I completed my schooling from St.Lukes.Sr.Sec.School ,Solan(H.P)</li>
+        </ul>
+        
+        <h2 id="skill">Skills</h2>
+        <div class="w3-border">
+            <div class="w3-grey">HTML</div>
+        </div>
+        <div class="w3-border">
+            <div class="w3-grey ch1">CSS</div>
+        </div>
+        <div class="w3-border">
+            <div class="w3-grey ch2">JQuery</div>
+        </div>               
+        <div class="w3-border">
+                <div class="w3-grey ch3">JAVA</div>
+        </div>
+        <div class="w3-border">
+            <div class="w3-grey ch4">Javascript</div>
+        </div>
+        <h2 id="exp">Expertise</h2>
+        <div class="expertise">
+            <img src="web-design.png" alt="web-design-icon">
+            <p><b>Web Designing</b></p>
+            <small>
+               Front End Developer 
+            </small>
+        </div>
+        <div class="expertise">
+            <img src="photoshop.png" alt="photoshop-icon">
+            <p><b>Image-Photoshop</b></p>
+            <small>
+                Image Editing,Logo Making
+            </small>
+        </div>
+        <div class="expertise">
+            <img src="gaming.png" alt="gaming-icon">
+            <p><b>Gaming & Sports</b></p>
+            <small>
+                FIFA ,FOOTBALL(mufc)
+            </small>
+        </div>
+        <h2 id="pro">My Project Work</h2>
+        <div class="projects">
+            <img src="1.png" alt="1"/> <!--height="150px" width="240px">-->
+            <img src="s2.png" alt="2"/> <!--height="150px" width="240px">-->
+            <img src="s3.png" alt="g1"/> <!--height="150px" width="240px">-->
+            <img src="s4.png" alt="g2"/> <!--height="150px" width="240px">-->
+            <img src="s5.png" alt="g5"/> <!--height="150px" width="240px">-->
+            <img src="s6.png" alt="g6"/> <!--<height="150px" width="240px">-->
+        </div>
+        <div class="form-box">
+                <h2 id="con">Contact Me</h2>  
+            <form>
+                <div class="input-group"> 
+                 <input type="text" placeholder="First-Name">
+                 <input type="text" placeholder="Last-Name">   
+                </div>
+                <div class="input-group">   
+                    <input type="number" placeholder="Phone-No">
+                    <input type="email" placeholder="Email">   
+                </div>
+                <div class="text-area">
+                    <textarea rows="4" placeholder="Your Message.."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">SEND MESSAGE</button>
+            </form>
+        </div>
+        <div class="contact">
+                <span><img src="gmail.png" alt="gmail-icon">vinayb9955@gmail.com</span>
+                <span><img src="call.png" alt="calling-icon">+91 9876547890</span>
+        </div>
+        <p class="copyright">Designed By Vinay Bharti</p>
+    </div>    
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.menu').click(function()
+        {
+            $('ul').toggleClass('active');
+        })
+    })
+    </script>
+</body>
+</html>
